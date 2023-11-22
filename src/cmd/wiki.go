@@ -20,7 +20,7 @@ func (p *Page) save() os.Error {
 }
 // LoadPage well, loads the page.
 // That's about it, really.
-func LoadPage(title string) (*Page, os.Error) {
+/* func LoadPage(title string) (*Page, os.Error) {
 	filename := title + ".txt"
 	body, err := ioutil.ReadFile(filename)
 	if err != nil {
@@ -85,7 +85,7 @@ func makeHandler(fn func(http.ResponseWriter, *http.Request, string)) http.Handl
 			http.NotFound(w, r)
 			return
 		}
-		fn(w, r, title)
+		fn(w, r, title) */
 	}
 }
 
