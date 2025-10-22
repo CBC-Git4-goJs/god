@@ -14,6 +14,6 @@ jobs:
       - name: success_valid_env_reg_artifact
         uses: cloudbees-io/register-deployed-artifact@v2
         with:
-          artifact-id: "0466d69d-fc5e-4b69-8ba0-48a881284d7b"
+          artifact-id: "6996f989-655f-4744-aec3-7bd6fe6567f5"
           target-environment: "Production"
           labels: "Unify1"
